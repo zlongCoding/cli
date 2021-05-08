@@ -4,3 +4,4 @@ yarn.lock
 types
 yarn-error.log
 bin
+.vscode

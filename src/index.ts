@@ -1,1 +1,2 @@
 import './loadTemplate'
+import './loadinConfig'

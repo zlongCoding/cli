@@ -5,8 +5,7 @@
   "main": "src/index.ts",
   "scripts": {
     "serve": "cross-env NODE_ENV=development rollup -w -c",
-    "build": "cross-env NODE_ENV=production rollup -c",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "cross-env NODE_ENV=production rollup -c"
   },
   "bin": {
     "daily-cli": "./bin/daily-dev-cli.js"

@@ -1,0 +1,5 @@
+declare module 'chalk'
+declare module 'commander'
+declare module 'download-git-repo'
+declare module 'ora'
+declare module 'handlebars'

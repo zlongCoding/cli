@@ -9,10 +9,13 @@ const inquirer = require('inquirer');
 const ora = require('ora');
 const chalk = require('chalk');
 // loadPerfConfig()
+let newProjectName = ''
 program.version('1.0.0', '-v, --version')
     .command('init <name>')
     .action((name) => {
+
         if(!fs.existsSync(name)){
+            newProjectName = name
             inquirer.prompt([
                 {
                     name: 'description',
